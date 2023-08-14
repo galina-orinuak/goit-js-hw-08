@@ -8,6 +8,8 @@ form.addEventListener('input', throttle(checkInput, 500));
 
 form.addEventListener('submit', submit);
 
+let formData = {};
+
 const localData = localStorage.getItem('feedback-form-state')
 
 
